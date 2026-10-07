@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Webwing Travel",
+    "slug": "webwing-travel",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0E14"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.webwing.travel"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B0E14"
+      },
+      "package": "com.webwing.travel",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "webwing-travel-app-001"
+      }
+    }
+  }
+}

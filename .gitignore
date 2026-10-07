@@ -1,0 +1,19 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo & Metro
+.expo/
+dist/
+web-build/
+
+# Native builds
+*.apk
+*.aab
+*.ipa
+
+# OS metadata
+.DS_Store
+Thumbs.db
